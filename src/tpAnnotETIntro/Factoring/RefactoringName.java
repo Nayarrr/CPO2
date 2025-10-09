@@ -1,4 +1,4 @@
-package tpAnnotETIntro.src.Factoring;
+package src.tpAnnotETIntro.Factoring;
 
 public enum RefactoringName {
     rename, extractClass, extractMethod,

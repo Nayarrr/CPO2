@@ -1,4 +1,4 @@
-package tpAnnotETIntro.src.Appartement;
+package src.tpAnnotETIntro.Appartement;
 
 import java.io.Serializable;
 import java.util.Scanner;

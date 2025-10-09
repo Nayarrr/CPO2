@@ -1,4 +1,4 @@
-package tpAnnotETIntro.src.Factoring;
+package src.tpAnnotETIntro.Factoring;
 
 @OpFactoring(nomP = "leBoss", nomRefact = RefactoringName.extractClass, commentaire = "Extraction class adresse", isEclipse = false, nbrCas = 1)
 public class Personne {

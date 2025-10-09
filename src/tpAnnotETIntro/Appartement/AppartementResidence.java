@@ -1,4 +1,4 @@
-package tpAnnotETIntro.src.Appartement;
+package src.tpAnnotETIntro.Appartement;
 
 public class AppartementResidence extends Appartement{
     private String services = "aucun service";

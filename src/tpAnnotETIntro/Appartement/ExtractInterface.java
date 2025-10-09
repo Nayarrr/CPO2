@@ -1,4 +1,4 @@
-package tpAnnotETIntro.src.Appartement;
+package src.tpAnnotETIntro.Appartement;
 
 import java.lang.reflect.*;
 import java.util.*;

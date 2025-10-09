@@ -1,4 +1,4 @@
-package tpAnnotETIntro.src.Factoring;
+package src.tpAnnotETIntro.Factoring;
 
 import java.lang.annotation.*;
 import java.lang.reflect.*;
