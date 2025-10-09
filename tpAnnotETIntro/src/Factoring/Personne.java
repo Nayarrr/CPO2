@@ -1,5 +1,6 @@
-package tpAnnotETIntro.src;
+package tpAnnotETIntro.src.Factoring;
 
+@OpFactoring(nomP = "leBoss", nomRefact = RefactoringName.extractClass, commentaire = "Extraction class adresse", isEclipse = false, nbrCas = 1)
 public class Personne {
 public Personne (String nom,int age,int numrue,String nomrue,
     String ville,int codepostale){
@@ -8,7 +9,7 @@ public Personne (String nom,int age,int numrue,String nomrue,
             this.NumRue = numrue ;
             this.NomRue = nomrue ;
             this.Ville = ville ;
-            this.CodePostale = codepostale ;
+            this.CodePostale = codepostale ; 
     }
 
     @OpFactoring(nomP = "Nayarr",nomRefact = RefactoringName.encapsulatedField, commentaire =  "Passe en PV", isEclipse = false, nbrCas = 1)
@@ -35,7 +36,7 @@ public Personne (String nom,int age,int numrue,String nomrue,
     @OpFactoring(nomP = "Rayou",nomRefact = RefactoringName.rename, commentaire =  "Mets en minuscule tes atributs bg de la night", isEclipse = false, nbrCas = 1)
     public int CodePostale ;
 
-    @OpFactoring(nomP = "leBoss", nomRefact = RefactoringName.extractClass, commentaire = "Extraction class adresse", isEclipse = false, nbrCas = 1)
+    @OpFactoring(nomP = "Rayou",nomRefact = RefactoringName.rename, commentaire =  "Mets en minuscule ta méthode bg de la night", isEclipse = false, nbrCas = 1)
     public void AfficherAdresse(){
         System.out.println("Numero de rue : "+NumRue);
         System.out.println("Nom de la rue : "+NomRue);

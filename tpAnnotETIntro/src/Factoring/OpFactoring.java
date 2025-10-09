@@ -1,4 +1,4 @@
-package tpAnnotETIntro.src;
+package tpAnnotETIntro.src.Factoring;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Repeatable;
@@ -16,4 +16,4 @@ public @interface OpFactoring {
     String commentaire();
     boolean isEclipse();
     int nbrCas();
-}
+} 
