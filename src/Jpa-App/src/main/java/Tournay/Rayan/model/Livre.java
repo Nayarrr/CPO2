@@ -1,4 +1,6 @@
 package Tournay.Rayan.model;
+import java.time.LocalDate;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -14,24 +16,36 @@ public class Livre{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @Column(name = "titre")
+
+    @Column(name = "titre", nullable = false)
     private String titre;
+
     @ManyToOne
     @JoinColumn(name = "auteur_id")
     private Auteur auteur;
+
     @ManyToOne
     @JoinColumn(name = "editeur_id")
     private Editeur editeur;
+
     @Column(name = "lu")
     private boolean lu;
 
+    @Column(name = "date_de_publication")
+    private LocalDate dateDePublication;
+
+    @Column(name = "genre")
+    private Genre genre;
+
     public Livre() {}
 
-    public Livre(String titre, Auteur auteur, Editeur editeur, boolean lu) {
+    public Livre(String titre, Auteur auteur, Editeur editeur, boolean lu, LocalDate dateDePublication, Genre genre) {
         this.titre = titre;
         this.auteur = auteur;
         this.editeur = editeur;
         this.lu = lu;
+        this.dateDePublication = dateDePublication;
+        this.genre = genre;
     }
 
     public String getTitre() {
@@ -68,5 +82,21 @@ public class Livre{
 
     public void setLu(boolean lu) {
         this.lu = lu;
+    }
+
+    public void setDateDePublication(LocalDate dateDePublication) {
+        this.dateDePublication = dateDePublication;
+    }
+
+    public LocalDate getDateDePublication() {
+        return this.dateDePublication;
+    }
+
+    public Genre getGenre() {
+        return genre;
+    }
+
+    public void setGenre(Genre genre) {
+        this.genre = genre;
     }
 }

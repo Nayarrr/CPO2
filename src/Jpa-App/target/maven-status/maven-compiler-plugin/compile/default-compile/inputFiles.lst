@@ -3,3 +3,4 @@
 /home/ubuntu/CPO2/src/Jpa-App/src/main/java/Tournay/Rayan/dao/BibliothequeDAO.java
 /home/ubuntu/CPO2/src/Jpa-App/src/main/java/Tournay/Rayan/model/Livre.java
 /home/ubuntu/CPO2/src/Jpa-App/src/main/java/Tournay/Rayan/model/Editeur.java
+/home/ubuntu/CPO2/src/Jpa-App/src/main/java/Tournay/Rayan/model/Genre.java
