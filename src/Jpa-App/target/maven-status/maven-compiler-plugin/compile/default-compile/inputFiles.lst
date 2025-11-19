@@ -1,5 +1,15 @@
+<<<<<<< HEAD
 /home/rayan.tournay/CPO2/src/Jpa-App/src/main/java/Tournay/Rayan/dao/BibliothequeDAO.java
 /home/rayan.tournay/CPO2/src/Jpa-App/src/main/java/Tournay/Rayan/App.java
 /home/rayan.tournay/CPO2/src/Jpa-App/src/main/java/Tournay/Rayan/model/Editeur.java
 /home/rayan.tournay/CPO2/src/Jpa-App/src/main/java/Tournay/Rayan/model/Livre.java
 /home/rayan.tournay/CPO2/src/Jpa-App/src/main/java/Tournay/Rayan/model/Auteur.java
+||||||| empty tree
+=======
+/home/ubuntu/CPO2/src/Jpa-App/src/main/java/Tournay/Rayan/model/Auteur.java
+/home/ubuntu/CPO2/src/Jpa-App/src/main/java/Tournay/Rayan/App.java
+/home/ubuntu/CPO2/src/Jpa-App/src/main/java/Tournay/Rayan/dao/BibliothequeDAO.java
+/home/ubuntu/CPO2/src/Jpa-App/src/main/java/Tournay/Rayan/model/Livre.java
+/home/ubuntu/CPO2/src/Jpa-App/src/main/java/Tournay/Rayan/model/Editeur.java
+/home/ubuntu/CPO2/src/Jpa-App/src/main/java/Tournay/Rayan/model/Genre.java
+>>>>>>> c6b215e522f19c701d9e9a166ee12abebab1d2dd
